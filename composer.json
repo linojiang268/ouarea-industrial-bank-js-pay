@@ -1,0 +1,32 @@
+{
+  "name": "ouarea/industrial-bank-js-pay",
+  "version": "v1.0.1",
+  "description": "Pay service for weixin-js implementation with industrial bank as backend",
+  "license": "proprietary",
+  "type": "library",
+
+  "autoload": {
+    "files": [
+      "src/Support/helpers.php"
+    ],
+    "psr-4": {
+      "Ouarea\\Payment\\IndustrialBankJs\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+  },
+
+  "config": {
+    "preferred-install": "dist"
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "require-dev": {
+  }
+}
