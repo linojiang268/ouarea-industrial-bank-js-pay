@@ -103,6 +103,7 @@ class Service
     private function padCommonParams(&$params)
     {
         $params['mch_id']           = $this->merchantId;
+        $params['sub_appid']        = $this->subAppid;
         $params['version']          = $this->version;
         $params['charset']          = 'UTF-8';
         $params['sign_type']        = 'MD5';
