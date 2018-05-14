@@ -1,6 +1,6 @@
 {
   "name": "ouarea/industrial-bank-js-pay",
-  "version": "v1.0.2",
+  "version": "v1.1.1",
   "description": "Pay service for weixin-js implementation with industrial bank as backend",
   "license": "proprietary",
   "type": "library",
